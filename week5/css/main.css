@@ -121,7 +121,7 @@ tbody tr:nth-child(even) {
 }
 
 table th:nth-child(n),
-table td:nth-child(n), {
+table td:nth-child(n) {
     border: 1px solid #000;
 }
 
