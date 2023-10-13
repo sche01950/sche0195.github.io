@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Evan's Scrumptious Coffee - Home</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <nav>
 
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
@@ -25,12 +26,12 @@
         <!-- STARTING THE MAIN CONTENT -->
     <main>
         <!-- ADDING AN ON PAGE LINK -->
-        <a href="#treat of the week">Jump to the Treat of the Week</a>
+        <a href="#treatoftheweek" class="blue-link">Jump to the Treat of the Week</a>
         <!-- ARTICLE OF THE PAGE. CAN BE A STANDALONE -->
         <article>
             <h2>Our Story</h2>
             <!-- ADDING AN IMAGE -->
-            <img src="images/coffee-shop.jpg" alt="coffe cup on a pile of coffee beans" width="100" height="100">
+            <img src="images/coffee-shop.jpg" alt="coffee cup on a pile of coffee beans">
             <p>
                 We are a <em>family-owned business</em>. Evan is the <abbr title="Chief Executive Officer">CEO</abbr>
                 and he is the sexy head barista of the shop. Anna is the pastry chef and is in charge of the bake shop.
@@ -68,9 +69,9 @@
         </section>
 
         <!-- ADDING A SECTION FOR A DESCRIPTION LIST -->
-        <section id="treat of the week">
-            <h3>Treat of the Week</h3>
-            <dl>
+        <section id="treatoftheweek">
+            <h3 class="white-text"> Treat of the Week</h3>
+            <dl class="white-text">
                 <dt>Name</dt>
                 <dd>Banana Bread</dd>
 
@@ -92,12 +93,12 @@
                 </dd>
             </dl>
             <!-- ADDING AN EXTERNAL LINK -->
-            <a href="https://tasty.co/recipe/one-bowl-chocolate-chip-banana-bread" target="_blank">Get the recipe</a>
+            <a href="https://tasty.co/recipe/one-bowl-chocolate-chip-banana-bread" target="_blank" class="blue-link large-text">Get the recipe</a>
         </section>
         <section>
             <!-- ADDING A SECTION FOR MENU TABLE -->
             <h3>Menu Specials</h3>
-            <table border>
+            <table>
                 <thead>
                     <tr>
                         <th colspan="2">Items</th>
