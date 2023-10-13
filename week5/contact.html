@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evan's Scrumptious Coffee - Home</title>
+</head>
+
+<body>
+    <!--THIS IS AN HTML COMMENT -->
+    <!-- CTRL + / TO ADD OR REMOVE A COMMENT -->
+
+    <!-- SITE HEADER  -->
+    <header>
+        <h1> Evan's Scrumptious Coffee </h1>
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </header>
+        <!-- STARTING THE MAIN CONTENT -->
+    <main>
+        <!-- ADDING TABLE FOR HOURS OF OPERATION -->
+        <h2>Contact Us</h2>
+        <table border>
+            <caption>Hours of Operation</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon-Fri</td>
+                    <td>6am-9pm</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>8am-11pm</td>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>CLOSED</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ADDING A SECTION FOR A CONTACT FORM -->
+        <section>
+            <h3>We would love to hear from you!</h3>
+            <!-- ADDING THE FORM -->
+            <form action="thank.html" method="post">
+                <div>
+
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div>
+                    <label for="youremail">Email</label>
+                    <input type="email" id="youremail" name="youremail"
+                    placeholder="Algonquin Email" value="@algonquinlive.com">
+                </div>   
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="tickets">How Many Tickets? &#40;sold in Pairs&#41;</label>
+                    <input type="number" id="tickets" name="tickets" min="2" max="10" step="2" value="2">
+                </div>
+                <div>
+                    <label for="row">Pick Your Seats:</label>
+                    <select name="row" id="row">
+                        <option value="front">Front Row</option>
+                        <option value="center" selected>Center Row</option>
+                        <option value="back">Back Row</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>Have you been here before?</h3>
+                    <label for="yes">YES</label>
+                    <input type="radio" name="past" id="yes">
+
+                    <label for="no">NO</label>
+                    <input type="radio" name="past" id="no">
+                </div>
+                <div>
+                    <h3>Our policies</h3>
+                    <input type="checkbox" name="policies" id="checkbox" required>
+                    <label for="checkbox">I agree to the terms and conditions.</label>
+                </div>
+                <button type="submit">Submit</button>
+                </form>
+        </section>
+    </main>
+    <!-- SITE FOOTER -->
+    <footer>
+        <!-- SPECIALTY SYMBOLS FOR HTML ENTITIES CAN BE FOUND BY GOOGLING HTML ENTITIES -->
+        &copy;Copyright Evan's Scrumptious Coffee Shop
+    </footer>
+</body>
+
+</html>
