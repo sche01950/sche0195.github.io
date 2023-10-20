@@ -1,9 +1,11 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: black; font-size: 18px;
+    color: black;
+    font-size: 18px;
 }
 
-header, footer {
+header,
+footer {
     background-color: lavenderblush;
 }
 
@@ -17,4 +19,29 @@ header, footer {
 
 .hobby-list :nth-child(odd) {
     background-color: lavenderblush;
+}
+
+.hobby-list {
+    list-style-type: square;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    background-color: aquamarine;
+}
+
+nav ul li a {
+    border: 2px solid black;
+}
+
+nav ul li a:hover {
+    background-color: lavenderblush;
+    box-shadow: 1px 1px 3px 1px black;
 }
