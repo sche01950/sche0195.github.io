@@ -6,8 +6,25 @@ Shortcut is ctrl + / for a comment
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
+    /* adding a background image */
+    background-image: url(../images/white_brick_wall.png);
 }
-
+/* box model example */
+section p {
+    width: 50%;
+    /* 2 values = first value-top/bottom | second value - left/right */
+    padding: 1rem .5rem;
+    /* 4 values = top bottom left right */
+    margin: -1em 2em 2em 2em;
+    border-bottom: 4px solid darkolivegreen;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+img {
+    width: 100%;
+}
 h1 {
     color: cadetblue;
 }
@@ -21,22 +38,43 @@ p {
 h1, h2, h3, h4 {
     text-decoration: underline;
 }
-
 /* Selecting Child Elements */
-
+/* hint list-style square */
 nav ul {
     list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 49%;
+    padding: 1em;
+    box-sizing: border-box;
 }
 
 nav ul a {
     color: darkslategray;
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5 rem = 16px (default) x 1.5 */
+    display: block;
 }
 
 /* Selecting Element With ID Value */
 /* As a Best Practice, Avoid Using ID for Styles */
 #treatoftheweek {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    /* color image repeat position-x and position-y */
+
+    background: cadetblue url(../images/bread.jpg) no-repeat center;
+    background-size: cover;
+    font-size: 1.25rem;
+    /* 1.25 x 16x = 20px */
+    padding: 1em;
+    /* 1 x 20px (font size) = 20px */
+    /* viewport based units */
+    /* width: 100vw */
+    /* height: 100vh */
+    width: 50%;
 }
 
 .blue-link {
@@ -58,6 +96,10 @@ nav ul a {
 
 article>p {
     font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 /* Adjacent Sibling Selector - selects element of very next sibling, if any exist */
@@ -134,3 +176,7 @@ table td:nth-child(2n+1) {
 /* Formula: inline style, ID, Class, Tag 
                 0      0    0      0    0
 */
+
+footer {
+    background-color: aqua;
+}
