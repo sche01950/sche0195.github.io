@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Life of a Coder</title>
+    <!-- links index to main.css -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <!-- site header -->
+    <!-- gives div a class for css -->
     <div class="container">
         <header>
             <h1>Lone Coder</h1>
-            <!-- inserting image before the nav bar -->
+            <!-- inserting image before the nav bar for banner -->
             <img src="images/schell-e-1.jpg" alt="evan typing his code on a laptop">
             <nav>
                 <ul>
@@ -21,11 +22,10 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <!-- center and design the nav through css -->
         </header>
     </div>
 
-    <!-- starting main content -->
+    <!-- starting main content, adds article, image, h2, and p -->
     <main>
         <article>
             <img src="images/schell-e-2.jpg" alt="evan sitting at his desk typing code">
@@ -38,7 +38,7 @@
                 scrutinized, and loops iterated tirelessly. The essence of his work remained a cryptic cipher, a
                 testament to the enigma of programming.</p>
         </article>
-        <!-- adding a section for fun facts about coding -->
+        <!-- adding a section for fun facts about coding in an unordered list-->
         <section>
             <h3>Facts About Coding</h3>
             <ul>
@@ -59,13 +59,14 @@
                 </div>
                 <div>
                     <label for="youremail">Email</label>
-                    <input type="email" id="youremail" name="youremail"
-                    value="@gmail.com" required>
+                    <input type="email" id="youremail" name="youremail" value="@gmail.com" required>
                 </div>
                 <div>
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="We would also like to know your feedback!"></textarea>
+                    <textarea name="message" id="message"
+                        placeholder="We would also like to know your feedback!"></textarea>
                 </div>
+                <!-- adds a radio button to end of page with a submit button for the forms -->
                 <div>
                     <h3>Would You Like To Code With Him?</h3>
                     <label for="yes">Yes</label>
@@ -77,6 +78,7 @@
         </section>
     </main>
     <footer>
+        <!-- copyright symbol using an entity -->
         &copy; Evan Schell
     </footer>
 </body>
