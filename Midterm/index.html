@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Life of a Coder</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- site header -->
+    <div class="container">
+        <header>
+            <h1>Lone Coder</h1>
+            <!-- inserting image before the nav bar -->
+            <img src="images/schell-e-1.jpg" alt="evan typing his code on a laptop">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Story</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- center and design the nav through css -->
+        </header>
+    </div>
+
+    <!-- starting main content -->
+    <main>
+        <article>
+            <img src="images/schell-e-2.jpg" alt="evan sitting at his desk typing code">
+            <h2>Life of a Coder</h2>
+            <p>In a dimly lit room, Evan sat at his desk, fingers dancing across the keyboard. Lines of code flowed
+                across the screen, a symphony of symbols and numbers. He wrestled with variables, dissecting data
+                structures, and debugging functions. Algorithms unfurled like a river, flowing through the digital
+                landscape. His monitor flickered with cascading information, a hypnotic dance of pixels. The logic gates
+                of the CPU hummed with electric energy as Evan dove deeper into the matrix of code. Data structures were
+                scrutinized, and loops iterated tirelessly. The essence of his work remained a cryptic cipher, a
+                testament to the enigma of programming.</p>
+        </article>
+        <!-- adding a section for fun facts about coding -->
+        <section>
+            <h3>Facts About Coding</h3>
+            <ul>
+                <li>Coders celebrate bug fixes with spontaneous dances.</li>
+                <li>Coders turn their code into creative and colorful websites.</li>
+                <li>Many coders work with a cup of their favorite brew.</li>
+                <li>Many coders thrive during late-night coding sessions.</li>
+            </ul>
+        </section>
+        <!-- adding a section for Contact to Learn More -->
+        <section>
+            <h3>Contact to Learn More</h3>
+            <!-- adding a form -->
+            <form action="contactus.html" method="post">
+                <div>
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div>
+                    <label for="youremail">Email</label>
+                    <input type="email" id="youremail" name="youremail"
+                    value="@gmail.com" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="We would also like to know your feedback!"></textarea>
+                </div>
+                <div>
+                    <h3>Would You Like To Code With Him?</h3>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="button" id="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="button" id="no">
+                </div>
+                <button type="submit">Submit</button>
+        </section>
+    </main>
+    <footer>
+        &copy; Evan Schell
+    </footer>
+</body>
+
+</html>
