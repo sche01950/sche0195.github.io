@@ -110,7 +110,7 @@ textarea {
 button {
     background-color: rgb(150, 205, 214);
 }
-
+/* last comment to fix padding */
 .aligned {
     padding-left: 1em;
 }
