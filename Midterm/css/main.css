@@ -3,13 +3,15 @@ body {
     color: black;
     background-color: rgb(150, 205, 214);
 }
+
 /* positions text to be centered on banner image */
 .center {
     position: absolute;
     top: 20%;
     left: 50%;
-    transform:translate(-50%, -50%)
+    transform: translate(-50%, -50%)
 }
+
 /* designs heading text for banner */
 h1 {
     color: azure;
@@ -19,6 +21,7 @@ h1 {
 img {
     width: 100%;
 }
+
 /* sizing, margins, and color of container class */
 .container {
     background-color: rgb(206, 232, 234);
@@ -35,6 +38,7 @@ nav a {
 nav ul {
     list-style: none;
 }
+
 /* formats navigation list to fit nav bar */
 nav li {
     display: inline-block;
@@ -43,6 +47,7 @@ nav li {
     text-align: center;
     border-left: 2px solid darkslategray;
 }
+
 /* gets rid of first line on navigation bar for design purposes */
 nav li:first-child {
     border: none;
@@ -51,6 +56,7 @@ nav li:first-child {
 main {
     padding: 0em 1em;
 }
+
 /* fixes the article image to the left side and leaves space between the p */
 article img {
     width: 27.5%;
@@ -58,6 +64,7 @@ article img {
     padding-right: 1.5em;
     padding-bottom: 1em;
 }
+
 /* font sizes of headings */
 h2 {
     font-size: 25px;
@@ -71,6 +78,7 @@ footer {
     text-align: right;
     padding: 2em 0;
 }
+
 /* adds padding and borders to contact area */
 .bordered {
     border: 2px solid #000;
@@ -86,8 +94,8 @@ textarea {
 }
 
 .formcontent {
-display: block;
-padding: .5em 0em;
+    display: block;
+    padding: .5em 0em;
 }
 
 .yesno {
@@ -97,6 +105,7 @@ padding: .5em 0em;
 .big {
     height: 6em;
 }
+
 /* this changes the button to a solid background color, could be changed to fit site aesthetic more */
 button {
     background-color: rgb(150, 205, 214);
