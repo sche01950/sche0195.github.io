@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(150, 205, 214);
+}
+
+.center {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+h1 {
+    color: azure;
+    font-size: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    background-color: rgb(206, 232, 234);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+    text-align: center;
+    border-left: 2px solid darkslategray;
+}
+
+nav li:first-child {
+    border: none;
+}
+
+main {
+    padding: 0em 1em;
+}
+
+article img {
+    width: 27.5%;
+    float: left;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 22.5px;
+}
+
+footer {
+    text-align: right;
+    padding: 2em 0;
+}
+
+.bordered {
+    border: 2px solid #000;
+    padding: 1em;
+}
+
+.long {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.formcontent {
+display: block;
+padding: .5em 0em;
+}
+
+.yesno {
+    padding-bottom: 1em;
+}
+
+.big {
+    height: 6em;
+}
+
+button {
+    background-color: rgb(150, 205, 214);
+}
+
+.aligned {
+    padding-left: 1em;
+}

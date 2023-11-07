@@ -12,75 +12,98 @@
     <!-- gives div a class for css -->
     <div class="container">
         <header>
-            <h1>Lone Coder</h1>
+            <div class="center">
+                <h1>Lone Coder</h1>
+            </div>
             <!-- inserting image before the nav bar for banner -->
             <img src="images/schell-e-1.jpg" alt="evan typing his code on a laptop">
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Story</a></li>
-                    <li><a href="">Contact</a></li>
+                    <!-- nav bar is dead-linked -->
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
-    </div>
 
-    <!-- starting main content, adds article, image, h2, and p -->
-    <main>
-        <article>
-            <img src="images/schell-e-2.jpg" alt="evan sitting at his desk typing code">
-            <h2>Life of a Coder</h2>
-            <p>In a dimly lit room, Evan sat at his desk, fingers dancing across the keyboard. Lines of code flowed
-                across the screen, a symphony of symbols and numbers. He wrestled with variables, dissecting data
-                structures, and debugging functions. Algorithms unfurled like a river, flowing through the digital
-                landscape. His monitor flickered with cascading information, a hypnotic dance of pixels. The logic gates
-                of the CPU hummed with electric energy as Evan dove deeper into the matrix of code. Data structures were
-                scrutinized, and loops iterated tirelessly. The essence of his work remained a cryptic cipher, a
-                testament to the enigma of programming.</p>
-        </article>
-        <!-- adding a section for fun facts about coding in an unordered list-->
-        <section>
-            <h3>Facts About Coding</h3>
-            <ul>
-                <li>Coders celebrate bug fixes with spontaneous dances.</li>
-                <li>Coders turn their code into creative and colorful websites.</li>
-                <li>Many coders work with a cup of their favorite brew.</li>
-                <li>Many coders thrive during late-night coding sessions.</li>
-            </ul>
-        </section>
-        <!-- adding a section for Contact to Learn More -->
-        <section>
+        <!-- starting main content, adds article, h2, image, and p -->
+        <main>
+            <article>
+                <h2>Life of a Coder</h2>
+                <img src="images/schell-e-2.jpg" alt="evan sitting at his desk typing code">
+
+                <p>
+                    In a dimly lit room, Evan sat at his desk, fingers dancing across the keyboard. Lines of code flowed
+                    across the screen, a symphony of symbols and numbers. He wrestled with variables, dissecting data
+                    structures, and debugging functions. Algorithms unfurled like a river, flowing through the digital
+                    landscape. His monitor flickered with cascading information, a hypnotic dance of pixels. The logic
+                    gates of the CPU hummed with electric energy as Evan dove deeper into the matrix of code. Data
+                    structures were scrutinized, and loops iterated tirelessly. </p>
+
+                <p> The essence of his work remained a cryptic cipher, a testament to the enigma of programming. Evan's
+                    dedication to the craft of coding was unwavering, and the dimly lit room seemed to fade away as he
+                    immersed himself in the digital realm. Time lost its meaning as he traversed through the intricate
+                    codebase, pursuing the solution to a complex challenge. Outside the room, the world moved on, but
+                    within those four walls, Evan was engaged in a solitary dance with the machine. He found himself
+                    engaged in a relentless battle with elusive bugs and unexpected glitches, his determination
+                    unwavering. With each issue resolved, a sense of accomplishment washed over him, driving him to
+                    press onward. As the night deepened, lines of code turned into a poetic expression, where each
+                    character and command had its role in the grand symphony of the program.</p>
+                <p>
+                    Evan knew that the solution was within reach, and he was determined to unravel the remaining enigmas
+                    that the code posed. Hours turned into days, and Evan's determination remained unyielding. His
+                    symphony of coding continued, an intricate tapestry of logic and creativity woven together. In this
+                    secluded world of his own
+                    creation, he was on the cusp of crafting a digital masterpiece, a testament to his skill and passion
+                    for the art of programming.</p>
+            </article>
+            <!-- adding a section for fun facts about coding in an unordered list-->
+            <section>
+                <h3>Facts About Coding</h3>
+                <ul class="aligned">
+                    <li>Coders celebrate bug fixes with spontaneous dances.</li>
+                    <li>Coders turn their code into creative and colorful websites.</li>
+                    <li>Many coders work with a cup of their favorite brew.</li>
+                    <li>Many coders thrive during late-night coding sessions.</li>
+                </ul>
+            </section>
+            <!-- adding a section for Contact to Learn More -->
             <h3>Contact to Learn More</h3>
-            <!-- adding a form -->
-            <form action="contactus.html" method="post">
-                <div>
-                    <label for="fullname">Name</label>
-                    <input type="text" id="fullname" name="fullname">
-                </div>
-                <div>
-                    <label for="youremail">Email</label>
-                    <input type="email" id="youremail" name="youremail" value="@gmail.com" required>
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"
-                        placeholder="We would also like to know your feedback!"></textarea>
-                </div>
-                <!-- adds a radio button to end of page with a submit button for the forms -->
-                <div>
-                    <h3>Would You Like To Code With Him?</h3>
-                    <label for="yes">Yes</label>
-                    <input type="radio" name="button" id="yes">
-                    <label for="no">No</label>
-                    <input type="radio" name="button" id="no">
-                </div>
-                <button type="submit">Submit</button>
-        </section>
-    </main>
-    <footer>
-        <!-- copyright symbol using an entity -->
-        &copy; Evan Schell
-    </footer>
+            <section class="bordered">
+                <!-- adding a form -->
+                <form action="contactus.html" method="post">
+                    <div>
+                        <label class="formcontent" for="fullname">Name</label>
+                        <input class="long" type="text" id="fullname" name="fullname">
+                    </div>
+                    <div>
+                        <label class="formcontent" for="youremail">Email</label>
+                        <input class="long" type="email" id="youremail" name="youremail" value="@gmail.com" required>
+                    </div>
+                    <div>
+                        <label class="formcontent" for="message">Message</label>
+                        <textarea class="long big"name="message" id="message"
+                            placeholder="We would also like to know your feedback!"></textarea>
+                    </div>
+                    <!-- adds a radio button to end of page with a submit button for the forms -->
+                    <div class="yesno">
+                        <h3 class="smaller">Would You Like To Code With Him?</h3>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="button" id="yes">
+                        <label for="no">No</label>
+                        <input type="radio" name="button" id="no">
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" name="button" id="maybe">
+                    </div>
+                    <button type="submit">Submit</button>
+            </section>
+            <footer>
+                <!-- copyright symbol using an entity -->
+                &copy; Evan Schell
+            </footer>
+        </main>
+    </div>
 </body>
 
 </html>
