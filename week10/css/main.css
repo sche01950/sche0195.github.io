@@ -215,3 +215,11 @@ p {
 
 
 }
+
+/********* MEDIA QUERY 800PX **********/
+
+@media screen and (min-width: 800px) {
+    .actions-list li {
+        max-width: 20%;
+    }
+}
