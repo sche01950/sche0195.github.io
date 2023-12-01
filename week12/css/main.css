@@ -1,0 +1,43 @@
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 500%;
+    font-size: 4rem;
+    color: brown;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 10rem;
+    color: burlywood;
+}
+
+.max-mar {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: brown;
+}
+
+.map iframe {
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
