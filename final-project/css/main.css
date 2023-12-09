@@ -1,0 +1,149 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.nav-image {
+    width: 125px;
+    padding: 1em;
+}
+
+.main-nav {
+   margin: auto;
+   text-align: center;
+   font-size: 1.25em;
+}
+
+.nav-bar {
+    list-style-type: none;
+    background-color: #222;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #c78c06;
+}
+
+.nav-bar li {
+    padding: 1em;
+    padding-bottom: 1em;
+}
+
+.nav-search input {
+    width: 90%;
+    padding: 0.5em;
+    padding-right: 0;
+    font-size: 1em;
+}
+
+header.masthead {
+    background-color: #222;
+}
+
+/* giving p tag and home button a background colour to cancel out
+the nav bar background color. */
+
+form.nav-search {
+    padding: 0;
+}
+
+/* STYLING MAGNIFYING GLASS BUTTON */
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #c78c06;
+    margin-left: -4px;
+}
+
+.search-but {
+    background-color: #222;
+}
+
+.fa-magnifying-glass {
+    color: #c78c06;
+    font-size: 1.5em;
+}
+
+.search-style {
+    border-radius: 3px;
+}
+
+.site-h1 {
+    font-size: 5em;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.top-ban {
+    background: url(/final-project/images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.top-text {
+    color: white;
+    line-height: 1.5;
+}
+
+.op-header {
+    background-color: #222;
+    background: rgba(0, 0, 0, 0.50);
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+/* styles 'connect with us' button to fit inside header background */
+
+.home-but a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.home-but {
+    display: inline-block;
+    background-color: #c78c06;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.fa-caret-right {
+    padding-left: 0.25em;
+    font-size: 1.50em;
+}
+
+.opening {
+    background-color: #ffe6ac;
+    margin: auto;
+    padding: 1em;
+}
+
+.learn-img {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.about-sec {
+    font-size: 2.75em;
+    font-weight: 700;
+    padding-top: 0.75em;
+    padding-bottom: 0.5em;
+}
+
+.info-p1 {
+    margin-bottom: 1em;
+}
+
+.info-p2 {
+    margin-bottom: 1em;
+}

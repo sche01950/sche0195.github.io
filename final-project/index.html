@@ -7,8 +7,11 @@
     <title>Three Star Media &#124; Welcome</title>
     <!-- links site to css and reset files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="#">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="/final-project/css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,56 +20,62 @@
         <header class="masthead">
             <img src="images/logo.png" alt="three-star-logo" class="nav-image">
             <nav class="main-nav">
-                <ul class="nav-bar">
+            <ul class="nav-bar">
                     <li><a href="index.html" class="Home">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#learn">About Us</a></li>
+                    <li><a href="#options">Services</a></li>
+                    <li><a href="#members">Team</a></li>
+                    <li><a href="#communicate">Contact</a></li>
+                    <form class="nav-search" action="#">
+                            <input type="text" placeholder="Search" name="search" class="search-style">
+                            <button type="submit" class="search-but"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
                 </ul>
-                <form class="nav-search" action="#">
-                    <input type="text" placeholder="Search" name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
             </nav>
             <div class="top-ban">
-                <div class="site-h1">
-                    <h1>Welcome to Three Star Media</h1>
+                <div class="op-header">
+                    <div class="site-h1">
+                        <h1>Welcome to Three Star Media</h1>
+                    </div>
+                    <!-- seperate divs for CSS adjustments -->
+                    <div class="top-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                    <div class="home-but">
+                        <a target="_blank" href="index.html">Connect With Us <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
                 </div>
-                <!-- seperate divs for CSS adjustments -->
-                <div class="top-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                </div>
-            </div>
-            <div class="home-but">
-                <a target="_blank" href="index.html">Connect With Us <i class="fa-solid fa-caret-right"></i></a>
             </div>
         </header>
 
         <main class="content">
             <section class="max-mar" class="learn-sec">
-                <div class="opening">
-                        <h2>About Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis. Mauris pellentesque
-                            pulvinar
-                            pellentesque habitant morbi.
-                        </p>
-                        <img src="images/about-us.jpg" alt="pool-table">
-                </div>
+                <div class="opening" id="learn">
+                    <img src="images/about-us.jpg" alt="pool-table" class="learn-img">
+                        <h2 class="about-sec">About Us</h2>
+                        <div>
+                            <p class="info-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div>
+                            <p class="info-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore
+                                et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis. Mauris pellentesque
+                                pulvinar
+                                pellentesque habitant morbi.
+                            </p>
+                        </div>
+                        </div>
             </section>
             <!-- begin section of panel images and buttons -->
-            <h2 class="panel-sec">Our Services</h2>
+            <h2 class="panel-sec" id="options">Our Services</h2>
             <section class="max-mar" class="card-sec">
                 <div class="panel-container">
                     <!-- make panel card section div that can be styled together -->
@@ -157,7 +166,7 @@
                 </div>
             </section>
             <section class="max-mar" class="team-sec">
-                <h2 class="panel-sec">Our Team</h2>
+                <h2 class="panel-sec" id="members">Our Team</h2>
                 <div class="card-two">
                     <h3>John Doe</h3>
                     <h4>CEO and Co-owner</h4>
@@ -181,7 +190,7 @@
             </section>
         </main>
         <section class="max-mar" class="form-sec">
-            <h2>Contact Us</h2>
+            <h2 id="communicate">Contact Us</h2>
             <h3>Send us a message</h3>
             <!-- use form to include entire contact inputs -->
             <form action="#" method="post">
