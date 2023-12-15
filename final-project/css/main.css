@@ -542,7 +542,7 @@ the nav bar background color. */
         /* cover and center image to format to assignment layout  */
 
         .card-vis {
-            background: url(/final-project/images/vision.jpg) center;
+            background: url("../images/vision.jpg") center;
             background-size: cover;
             padding-left: 50px;
 
