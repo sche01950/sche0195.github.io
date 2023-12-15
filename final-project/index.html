@@ -19,20 +19,23 @@
     <!-- naming classes for NAVbar CSS  -->
     <div class="container">
         <header class="masthead">
-            <img src="images/logo.png" alt="three-star-logo" class="nav-image">
-            <nav class="main-nav">
-                <ul class="nav-bar">
-                    <li><a href="index.html" class="Home">Home</a></li>
-                    <li><a href="#learn">About Us</a></li>
-                    <li><a href="#options">Services</a></li>
-                    <li><a href="#members">Team</a></li>
-                    <li><a href="#communicate">Contact</a></li>
-                    <form class="nav-search" action="#">
-                        <input type="text" placeholder="Search" name="search" class="search-style">
-                        <button type="submit" class="search-but"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-                </ul>
-            </nav>
+            <div class="nav-all">
+                <img src="images/logo.png" alt="three-star-logo" class="nav-image">
+                <nav class="main-nav">
+                    <ul class="nav-bar">
+                        <li><a href="index.html" class="Home">Home</a></li>
+                        <li><a href="#learn">About Us</a></li>
+                        <li><a href="#options">Services</a></li>
+                        <li><a href="#members">Team</a></li>
+                        <li><a href="#communicate">Contact</a></li>
+                        <form class="nav-search" action="#">
+                            <input type="text" placeholder="Search" name="search" class="search-style">
+                            <button type="submit" class="search-but"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </ul>
+                </nav>
+            </div>
             <div class="top-ban">
                 <div class="op-header">
                     <div class="site-h1">
@@ -58,110 +61,129 @@
         </header>
 
         <main class="content">
-            <section class="max-mar" class="learn-sec">
+            <section class="max-mar learn-sec">
                 <div class="opening" id="learn">
                     <img src="images/about-us.jpg" alt="pool-table" class="learn-img">
-                    <h2 class="about-sec">About Us</h2>
-                    <div>
-                        <p class="info-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <div>
-                        <p class="info-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis. Mauris pellentesque
-                            pulvinar
-                            pellentesque habitant morbi.
-                        </p>
+                    <div class="about-flex">
+                        <h2 class="about-sec">About Us</h2>
+                        <div>
+                            <p class="info-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam..</p>
+                        </div>
+                        <div>
+                            <p class="info-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut
+                                labore
+                                et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis. Mauris pellentesque
+                                pulvinar.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+
             <!-- begin section of panel images and buttons -->
-            <h2 class="panel-sec" id="options">Our Services</h2>
-            <section class="max-mar" class="card-sec">
-                <div class="panel-container">
-                    <!-- make panel card section div that can be styled together -->
-                    <div class="card">
-                        <img src="images/digital.jpg" alt="computer-and-phone">
-                        <div class="card-but">
-                            <h3>Digital Transformation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
-                                lectus
-                                nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo vel
-                                fringilla
-                                est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
-                            <button type="button" class="butt-wrap">Digital Plans <i
-                                    class="fa-solid fa-caret-right"></i></button>
-                            <!-- black triangle entity is removable if needed to style in css -->
+
+            <div class="big-sec-mar">
+                <h2 class="panel-sec" id="options">Our Services</h2>
+                <section class="max-mar card-sec">
+                    <div class="panel-container">
+                        <!-- make panel card section div that can be styled together -->
+                        <div class="card">
+                            <img src="images/digital.jpg" alt="computer-and-phone">
+                            <div class="card-but card-one">
+                                <h3>Digital Transformation</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                    lectus
+                                    nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo
+                                    vel
+                                    fringilla
+                                    est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
+                                </p>
+                                <button type="button" class="butt-wrap">Digital Plans <i
+                                        class="fa-solid fa-caret-right"></i></button>
+                                <!-- black triangle entity is removable if needed to style in css -->
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/marketing.jpg" alt="laptop">
+                            <div class="card-but card-two">
+                                <h3>Marketing</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                    lectus
+                                    nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo
+                                    vel
+                                    fringilla
+                                    est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
+                                </p>
+                                <button type="button" class="butt-wrap">Marketing Plans <i
+                                        class="fa-solid fa-caret-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/video.jpg" alt="cellphone">
+                            <div class="card-but card-three">
+                                <h3>Video Production</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                    lectus
+                                    nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo
+                                    vel
+                                    fringilla
+                                    est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
+                                </p>
+                                <button type="button" class="butt-wrap">Video Plans <i
+                                        class="fa-solid fa-caret-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/web.jpg" alt="cellphone">
+                            <div class="card-but card-four">
+                                <h3>Web Development</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                    lectus
+                                    nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo
+                                    vel
+                                    fringilla
+                                    est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
+                                </p>
+                                <button type="button" class="butt-wrap">Web Plans <i
+                                        class="fa-solid fa-caret-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/print.jpg" alt="cellphone">
+                            <div class="card-but card-five">
+                                <h3>Print</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                    lectus
+                                    nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo
+                                    vel
+                                    fringilla
+                                    est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
+                                </p>
+                                <button type="button" class="butt-wrap">Print Plans <i
+                                        class="fa-solid fa-caret-right"></i></button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="images/marketing.jpg" alt="laptop">
-                        <div class="card-but">
-                            <h3>Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
-                                lectus
-                                nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo vel
-                                fringilla
-                                est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
-                            <button type="button" class="butt-wrap">Marketing Plans <i
-                                    class="fa-solid fa-caret-right"></i></button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/video.jpg" alt="cellphone">
-                        <div class="card-but">
-                            <h3>Video Production</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
-                                lectus
-                                nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo vel
-                                fringilla
-                                est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
-                            <button type="button" class="butt-wrap">Video Plans <i
-                                    class="fa-solid fa-caret-right"></i></button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/web.jpg" alt="cellphone">
-                        <div class="card-but">
-                            <h3>Web Development</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
-                                lectus
-                                nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo vel
-                                fringilla
-                                est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
-                            <button type="button" class="butt-wrap">Web Plans <i
-                                    class="fa-solid fa-caret-right"></i></button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/print.jpg" alt="cellphone">
-                        <div class="card-but">
-                            <h3>Print</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
-                                lectus
-                                nulla at volutpat diam ut venenatis tellus. Enim praesent elementum facilisis leo vel
-                                fringilla
-                                est ullamcorper eget. Viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
-                            <button type="button" class="butt-wrap">Print Plans <i
-                                    class="fa-solid fa-caret-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
             <section>
                 <div class="card-vis">
                     <h2>Our Vision</h2>
@@ -175,86 +197,109 @@
                     </div>
                 </div>
             </section>
-            <section class="max-mar" class="team-sec">
+
+            <!-- tons of divs for css styling and griding -->
+
+            <section class="max-mar team-sec">
                 <div class="div-flex">
                     <h2 class="panel-sec" id="members">Our Team</h2>
-                    <div class="card-one">
-                        <img src="images/john.jpg" alt="CEO">
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis lectus
-                            nulla at volutpat diam ut venenatis tellus.
-                        </p>
-                    </div>
-                    <div class="card-two">
-                        <img src="images/bob.jpg" alt="CEO">
-                        <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis lectus
-                            nulla at volutpat diam ut venenatis tellus.
-                        </p>
+                    <div class="panel-grid-sec">
+                        <div class="card-one">
+                            <img src="images/john.jpg" alt="CEO" class="card-img-one">
+                        </div>
+                        <div class="info-grid-one">
+                            <h3>John Doe</h3>
+                            <h4>CEO and Co-owner</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                lectus
+                                nulla at volutpat diam ut venenatis tellus.
+                            </p>
+                        </div>
+                        <div class="card-two">
+                            <img src="images/bob.jpg" alt="CEO" class="card-img-two">
+                        </div>
+                        <div class="info-grid-two">
+                            <h3>Bob Rite</h3>
+                            <h4>CFO and Co-owner</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Quis
+                                lectus
+                                nulla at volutpat diam ut venenatis tellus.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
-        <section class="max-mar" class="form-sec">
+        <section class="max-mar form-sec">
             <div class="conta-container">
                 <h2 id="communicate">Contact Us</h2>
-                <h3>Send us a message</h3>
-                <!-- use form to include entire contact inputs -->
-                <form action="#" method="post">
-                    <div class="conta-form">
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" name="fullname">
+                <div class="container-grid">
+                    <div class="conta-grid">
+                        <h3>Send us a message</h3>
+                        <!-- use form to include entire contact inputs -->
+                        <form action="#" method="post">
+                            <div class="conta-form">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname">
+                            </div>
+                            <div class="conta-form">
+                                <label for="youremail">Email</label>
+                                <input type="email" id="youremail" name="youremail">
+                            </div>
+                            <div class="conta-form">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="100" rows="10"></textarea>
+                            </div>
+                            <div class="contact-but">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="conta-form">
-                        <label for="youremail">Email</label>
-                        <input type="email" id="youremail" name="youremail">
+                    <div class="time-grid">
+                        <h3>Hours of Operation</h3>
+                        <!-- border is replaceable in css, only for reference -->
+                        <table class="hour-table">
+                            <thead class="marg-tab">
+                                <tr class="marg-head">
+                                    <th class="bord-right">Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody class="marg-tab">
+                                <tr>
+                                    <td class="bord-right">Monday-Friday</td>
+                                    <td>9am-6pm</td>
+                                </tr>
+                                <tr>
+                                    <td class="bord-right">Saturday-Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="conta-form">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="100" rows="10"></textarea>
+
+                    <!-- marg-map div for styling, map-grid div for grid styling -->
+
+                    <div class="map-grid">
+                        <h3 class="loca-h3">Location</h3>
+                        <div class="marg-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9442698328717!2d-75.75750598783286!3d45.349937240934096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701472760418!5m2!1sen!2sca"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
-                    <div class="contact-but">
-                        <button type="submit">Send</button>
-                    </div>
-                </form>
-                <h3>Hours of Operation</h3>
-                <!-- border is replaceable in css, only for reference -->
-                <table class="hour-table">
-                    <thead class="marg-tab">
-                        <tr class="marg-head">
-                            <th class="bord-right">Days</th>
-                            <th>Hours</th>
-                        </tr>
-                    </thead>
-                    <tbody class="marg-tab">
-                        <tr>
-                            <td class="bord-right">Monday-Friday</td>
-                            <td>9am-6pm</td>
-                        </tr>
-                        <tr>
-                            <td class="bord-right">Saturday-Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h3 class="loca-h3">Location</h3>
-                <div class="marg-map">
-                    <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9442698328717!2d-75.75750598783286!3d45.349937240934096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701472760418!5m2!1sen!2sca"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                </div>
+            </div>
             <footer class="site-footer">
                 <p>&copy; Copyright Three Star Media, 2020 </P>
-                <p>All images taken from <a href="#">Unsplash</a></P>
-                <div>
+                <p>All images taken from <a href="https://unsplash.com/">Unsplash</a></P>
+            </footer>
         </section>
-        </footer>
     </div>
 </body>
 
