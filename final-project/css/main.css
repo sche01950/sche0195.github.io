@@ -11,9 +11,9 @@
 }
 
 .main-nav {
-   margin: auto;
-   text-align: center;
-   font-size: 1.25em;
+    margin: auto;
+    text-align: center;
+    font-size: 1.25em;
 }
 
 .nav-bar {
@@ -142,8 +142,219 @@ button {
 
 .info-p1 {
     margin-bottom: 1em;
+    line-height: 1.25em;
 }
 
 .info-p2 {
     margin-bottom: 1em;
+    line-height: 1.25em;
+}
+
+.panel-sec {
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-left: .3em;
+}
+
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em 0 1em;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-but h3 {
+    font-size: 2.25em;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+.card-but p {
+    line-height: 1.25em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.card {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
+
+.butt-wrap {
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+    padding: 1.25em;
+    font-size: 1.5em;
+    margin-bottom: .75em;
+    margin-left: .75em;
+    background-color: #222;
+}
+
+.butt-wrap:hover {
+    background-color: #c78c06;
+}
+
+.card-vis {
+    background: url(/final-project/images/vision.jpg) center;
+    width: 100%;
+}
+
+.card-vis h2 {
+    font-weight: 600;
+    font-size: 2.75em;
+    color: aliceblue;
+    padding-top: 1.25em;
+    padding-left: .5em;
+    padding-bottom: .5em;
+}
+
+.card-vis p {
+    color: aliceblue;
+    line-height: 1.25em;
+    margin: 1em;
+}
+
+.card-vis a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.vis-but {
+    display: inline-block;
+    background-color: #222;
+    padding: 2em;
+    margin: 1em;
+    border: 1px solid #c78c06;
+}
+
+.vis-but:hover {
+    background-color: #c78c06;
+}
+
+#members {
+    margin-left: .5em;
+}
+
+.div-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em 0 1em;
+}
+
+.div-flex img {
+    width: 100%;
+}
+
+.card-two,
+.card-one {
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
+
+.card-two p,
+.card-one p {
+    padding-right: 14em;
+    padding: 1em 2em 2em 1em;
+    line-height: 1.25em;
+}
+
+.card-one h3,
+.card-two h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: .75em 0 0 .35em;
+}
+
+.card-one h4,
+.card-two h4 {
+    font-weight: 700;
+    margin: .5em .5em .5em .80em;
+    border-bottom: #c78c06 solid 2.5px;
+    line-height: 1.5em;
+}
+
+#communicate {
+    margin: 1.25em 0 .75em 0;
+    font-size: 2.75em;
+    font-weight: 800;
+}
+
+.conta-container {
+    margin: 0 1em 0 1em;
+}
+
+.conta-container h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-bottom: .75em;
+}
+
+.conta-form label {
+    display: block;
+    margin: .5em 0 .5em 0;
+}
+
+/* styling button to fit the text within and replicate to screencap */
+
+.contact-but button {
+    width: fit-content;
+    height: fit-content;
+    color: #c78c06;
+    padding: .25em;
+    font-size: 1.5em;
+    margin: 1em 0 1em .10em;
+    background-color: #222;
+}
+
+.conta-form input, .conta-form textarea {
+    width: 100%;
+}
+
+.hour-table {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.hour-table tr {
+    border: #222 solid 1.5px;
+}
+
+.bord-right {
+    border-right: #222 solid 1.5px;
+}
+
+/* target both th and td to add padding for table styling */
+
+.marg-tab th, .marg-tab td {
+    padding: .90em;
+}
+
+.marg-head {
+    background-color: #ffe6ac;
+}
+
+.site-footer {
+    color: #c78c06;
+    background-color: #222;
+    line-height: 2em;
+    padding: 1em;
+}
+
+.site-footer a {
+    color: #c78c06;
+}
+
+.marg-map {
+    margin-bottom: 1em;
+    margin-left: .5em;
 }
