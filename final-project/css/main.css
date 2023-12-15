@@ -158,6 +158,8 @@ button {
     margin-left: .3em;
 }
 
+/* container to start flex with columns for cards and margin them off to  */
+
 .panel-container {
     display: flex;
     flex-direction: column;
@@ -202,6 +204,8 @@ button {
     background-color: #c78c06;
 }
 
+/******* START SECTION FOR VISION CARD SEC *******/
+
 .card-vis {
     background: url(/final-project/images/vision.jpg) center;
     width: 100%;
@@ -240,6 +244,8 @@ button {
 .vis-but:hover {
     background-color: #c78c06;
 }
+
+/******* END OF SECTION FOR VISION CARD SEC *******/
 
 #members {
     margin-left: .5em;
